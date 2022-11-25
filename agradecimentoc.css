@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    background-color: #1d1b4d;
+    background-image: url(../img/q.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+.icones a:hover {
+    transform: scale(1.1);
+}
+
+.icones a {
+    float: right !important;
+    padding: 0 !important;
+    margin: 10px;
+    margin-top: 11px;
+}
+
+.gin {
+    width: 42px;
+    height: 48px;
+    padding: 2px 2px;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.gin:hover {
+    transform: scale(1.1);
+}
+
+.ds {
+    width: 40px;
+    height: 42px;
+    padding: 1px 1px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.ds:hover {
+    transform: scale(1.1);
+}
+
+.steam {
+    width: 40px;
+    height: 43px;
+    padding: 2px 2px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.steam:hover {
+    transform: scale(1.1);
+}
+
+.insta {
+    width: 40px;
+    height: 42px;
+    padding: 2px 2px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.insta:hover {
+    transform: scale(1.1);
+}
+
+.youtube {
+    width: 40px;
+    height: 42px;
+    padding: 2px 2px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.youtube:hover {
+    transform: scale(1.1);
+}
+
+#menu {
+    background-image: url(../img/estrela.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#menu a {
+
+    text-decoration: none;
+    float: left;
+    color: #f2f2f2;
+    padding: 21px 21px;
+    font-size: 22px;
+    border-radius: 50px;
+    margin-left: 12px;
+
+}
+
+#menu a:hover {
+    background-image: url(../img/estrela.png);
+    height: 100%;
+    transform: scale(1.1);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    padding: 15px;
+    background-color: rgb(45, 86, 199);
+    border-radius: 90px;
+}
+
+.obrigado {
+    display: block;
+    margin: auto;
+    width: 750px;
+    height: 450px;
+}
+.oi{
+height: 100%;
+width: 100%;
+border-radius: 30px;
+margin-top: 20px;
+}
+
+h1::before {
+    content: "📬";
+}
+
+footer {
+    margin: 3% 0 0 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 16.5%;
+}
